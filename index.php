@@ -25,7 +25,7 @@
                                             I am Ronald.</h2>
                                     </div>
                                     <div data-swiper-parallax="300" class="slide-sub-title">
-                                        <h5>UI/UX Designer</h5>
+                                        <h5>Web Developer</h5>
                                     </div>
                                     <div data-swiper-parallax="400" class="slide-text">
                                         <p>Must explain to how all this mistaken idea denouncing pleasure pain
