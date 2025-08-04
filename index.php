@@ -384,44 +384,24 @@
                     <div class="col-lg-6 col-12">
                         <div class="wpo-section-title">
                             <h2>My Work Experience</h2>
-                            <p>Must explain to you how all this mistaken idea of denouncing pleasure
-                                born and give you a complete account the system</p>
+                            <p>I must explain how this wrong notion of rejecting pleasure came about and fully describe the entire system behind it.</p>
                         </div>
                     </div>
                 </div>
                 <div class="wpo-work-wrap">
                     <div class="wpo-work-item">
                         <ul>
-                            <li class="date">2015 - 2016</li>
-                            <li class="logo"><img src="assets/images/work/1.png" alt=""></li>
-                            <li class="position">Junior Visual Designer <span>Trapeza Group, USA.</span></li>
-                            <li class="link"><a href="#">Go to website</a></li>
+                            <li class="date">Dec 2024 - Present</li>
+                            <li class="logo"><img src="assets/images/work/Zeus.png" alt=""></li>
+                            <li class="position">WordPress Developer <span>Zeus Marketing Pvt Ltd, Lahore</span></li>
+                            <li class="link"><a href="https://zeusmarketingpvt.com/">Go to website</a></li>
                         </ul>
                     </div>
                     <div class="wpo-work-item">
                         <ul>
-                            <li class="date">2017 - 2018</li>
-                            <li class="logo"><img src="assets/images/work/2.png" alt=""></li>
-                            <li class="position">UI/UX Designer <span>Gallerie Ontario, Canada
-                                    <span>(Remote)</span></span></li>
-                            <li class="link"><a href="#">Go to website</a></li>
-                        </ul>
-                    </div>
-                    <div class="wpo-work-item">
-                        <ul>
-                            <li class="date">2019 - 2020</li>
-                            <li class="logo"><img src="assets/images/work/3.png" alt=""></li>
-                            <li class="position">Seinor UI/UX Desinger <span>Morson Hybrid, Canada</span></li>
-                            <li class="link"><a href="#">Go to website</a></li>
-                        </ul>
-                    </div>
-                    <div class="wpo-work-item">
-                        <ul>
-                            <li class="date">2019 - <span>Present</span></li>
-                            <li class="logo"><img src="assets/images/work/4.png" alt=""></li>
-                            <li class="position">Product Designer <span>Myant Inc. Etobicoke, ON
-                                    <span>(Remote)</span></span></li>
-                            <li class="link"><a href="#">Go to website</a></li>
+                            <li class="date">Oct 2024 - Dec 2024</li>
+                            <li class="logo"><img src="assets/images/work/RoboSticks.webp" alt=""></li>
+                            <li class="position">Internee WordPress Develeper <br><span>RoboSticks, Lahore.</span></li>
                         </ul>
                     </div>
                 </div>

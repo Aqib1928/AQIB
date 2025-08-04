@@ -71,14 +71,14 @@
                         </div>
                         <p>Must explain to you how all this mistaken idea pleasure born and give you a complete
                             account.</p>
-                        <form>
+                        <!-- <form>
                             <div class="input-1">
                                 <input type="email" class="form-control" placeholder="Email Address *" required>
                             </div>
                             <div class="submit clearfix">
                                 <button type="submit"><i class="ti-email"></i></button>
                             </div>
-                        </form>
+                        </form> -->
                     </div>
                 </div>
             </div>
