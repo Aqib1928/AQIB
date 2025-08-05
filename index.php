@@ -51,7 +51,7 @@
                                 <i class="fi flaticon-verified"></i>
                             </div>
                             <div class="p-text">
-                                <h3><span class="odometer" data-count="1500">00</span>+</h3>
+                                <h3><span class="odometer" data-count="2000">00</span>+</h3>
                                 <p>Complete Project</p>
                             </div>
                         </div>
@@ -393,7 +393,7 @@
                         <ul>
                             <li class="date">Dec 2024 - Present</li>
                             <li class="logo"><img src="assets/images/work/Zeus.png" alt=""></li>
-                            <li class="position">WordPress Developer <span>Zeus Marketing Pvt Ltd, Lahore</span></li>
+                            <li class="position">WordPress Developer <span>Zeus Marketing Pvt, Lahore</span></li>
                             <li class="link"><a href="https://zeusmarketingpvt.com/">Go to website</a></li>
                         </ul>
                     </div>
@@ -401,7 +401,8 @@
                         <ul>
                             <li class="date">Oct 2024 - Dec 2024</li>
                             <li class="logo"><img src="assets/images/work/RoboSticks.webp" alt=""></li>
-                            <li class="position">Internee WordPress Develeper <br><span>RoboSticks, Lahore.</span></li>
+                            <li class="position">Internee WordPress Develeper <span>RoboSticks, Lahore</span></li>
+                            <li class="link"><a href="#">Go to website</a></li>
                         </ul>
                     </div>
                 </div>
