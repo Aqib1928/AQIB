@@ -1,3 +1,7 @@
+<?php
+header("Location: maintenance.php");
+exit();
+?>
 <!DOCTYPE html>
 <html lang="en">
 <?php include './partials/head.php' ?>
@@ -236,13 +240,13 @@
                                 aria-controls="Development" aria-selected="true">Development</a>
                         </li>
                         <li class="nav-item" role="presentation">
-                            <a class="nav-link active" id="Design-tab" data-bs-toggle="tab" href="#Design" role="tab"
-                                aria-controls="Design" aria-selected="false">Design</a>
+                            <a class="nav-link active" id="Design-tab" data-bs-toggle="tab" href="#Wordpress" role="tab"
+                                aria-controls="Design" aria-selected="false">WordPress</a>
                         </li>
-                        <li class="nav-item" role="presentation">
+                        <!-- <li class="nav-item" role="presentation">
                             <a class="nav-link" id="Marketing-tab" data-bs-toggle="tab" href="#Marketing" role="tab"
                                 aria-controls="Marketing" aria-selected="false">Marketing</a>
-                        </li>
+                        </li> -->
                     </ul>
                     <div class="tab-content">
                         <div role="tabpanel" class="tab-pane" id="Development">
@@ -392,7 +396,7 @@
                     <div class="wpo-work-item">
                         <ul>
                             <li class="date">Dec 2024 - Present</li>
-                            <li class="logo"><img src="assets/images/work/Zeus.png" alt=""></li>
+                            <li class="logo"><img src="assets/images/work/Zeus.png" alt="" width="200"></li>
                             <li class="position">WordPress Developer <span>Zeus Marketing Pvt, Lahore</span></li>
                             <li class="link"><a href="https://zeusmarketingpvt.com/">Go to website</a></li>
                         </ul>
@@ -400,7 +404,7 @@
                     <div class="wpo-work-item">
                         <ul>
                             <li class="date">Oct 2024 - Dec 2024</li>
-                            <li class="logo"><img src="assets/images/work/RoboSticks.webp" alt=""></li>
+                            <li class="logo"><img src="assets/images/work/RoboSticks.webp" alt="" width="100"></li>
                             <li class="position">Internee WordPress Develeper <span>RoboSticks, Lahore</span></li>
                             <li class="link"><a href="#">Go to website</a></li>
                         </ul>
@@ -698,120 +702,8 @@
         </section>
         <!--End wpo-testimonial-section-->
 
-        <!-- start wpo-pricing-section -->
-        <section class="wpo-pricing-section section-padding">
-            <div class="container">
-                <div class="row">
-                    <div class="row justify-content-center">
-                        <div class="col-lg-5">
-                            <div class="wpo-section-title">
-                                <h2>Pricing Plan</h2>
-                                <p>Must explain to you how all this mistaken idea pleasure
-                                    born and give you a complete account.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="wpo-pricing-wrap">
-                    <div class="row">
-                        <div class="col col-lg-4 col-md-6 col-12">
-                            <div class="wpo-pricing-item">
-                                <div class="wpo-pricing-top">
-                                    <div class="pricing-thumb">
-                                        <span>Basic</span>
-                                    </div>
-                                    <div class="wpo-pricing-text">
-                                        <h2>$120<span> / per month</span></h2>
-                                        <p>Determine the Best Pricing Strategy For Your Business.</p>
-                                    </div>
-                                </div>
-                                <div class="wpo-pricing-bottom">
-                                    <div class="wpo-pricing-bottom-text">
-                                        <ul>
-                                            <li>Softwere Development</li>
-                                            <li>Web Development</li>
-                                            <li>Digital Marketing</li>
-                                            <li>Graphic Design</li>
-                                            <li>24/Support</li>
-                                        </ul>
-                                        <a href="pricing.php">CHOOSE PLAN</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col col-lg-4 col-md-6 col-12">
-                            <div class="wpo-pricing-item">
-                                <div class="wpo-pricing-top">
-                                    <div class="pricing-thumb">
-                                        <span>Premium</span>
-                                    </div>
-                                    <div class="wpo-pricing-text">
-                                        <h2>$210<span> / per month</span></h2>
-                                        <p>Determine the Best Pricing Strategy For Your Business.</p>
-                                    </div>
-                                </div>
-                                <div class="wpo-pricing-bottom">
-                                    <div class="wpo-pricing-bottom-text">
-                                        <ul>
-                                            <li>Softwere Development</li>
-                                            <li>Web Development</li>
-                                            <li>Digital Marketing</li>
-                                            <li>Graphic Design</li>
-                                            <li>24/Support</li>
-                                        </ul>
-                                        <a href="pricing.php">CHOOSE PLAN</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col col-lg-4 col-md-6 col-12">
-                            <div class="wpo-pricing-item">
-                                <div class="wpo-pricing-top">
-                                    <div class="pricing-thumb">
-                                        <span>Advanced</span>
-                                    </div>
-                                    <div class="wpo-pricing-text">
-                                        <h2>$373<span> / per month</span></h2>
-                                        <p>Determine the Best Pricing Strategy For Your Business.</p>
-                                    </div>
-                                </div>
-                                <div class="wpo-pricing-bottom">
-                                    <div class="wpo-pricing-bottom-text">
-                                        <ul>
-                                            <li>Softwere Development</li>
-                                            <li>Web Development</li>
-                                            <li>Digital Marketing</li>
-                                            <li>Graphic Design</li>
-                                            <li>24/Support</li>
-                                        </ul>
-                                        <a href="pricing.php">CHOOSE PLAN</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div> <!-- end container -->
-            <div class="shape-p">
-                <svg width="1500" height="1500" viewBox="0 0 1500 1500" fill="none">
-                    <g opacity="0.45" filter="url(#filter0_f_39_4213)">
-                        <circle cx="750" cy="750" r="200" />
-                    </g>
-                    <defs>
-                        <filter id="filter0_f_39_4213" x="0" y="0" width="1500" height="1500"
-                            filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-                            <feFlood flood-opacity="0" result="BackgroundImageFix" />
-                            <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
-                            <feGaussianBlur stdDeviation="275" result="effect1_foregroundBlur_39_4212" />
-                        </filter>
-                    </defs>
-                </svg>
-            </div>
-        </section>
-        <!-- end wpo-pricing-section -->
-
         <!-- start of wpo-blog-section -->
-        <section class="wpo-blog-section section-padding">
+        <!-- <section class="wpo-blog-section section-padding">
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-lg-5">
@@ -841,7 +733,7 @@
                     </defs>
                 </svg>
             </div>
-        </section>
+        </section> -->
         <!-- end of wpo-blog-section -->
 
         <!-- start wpo-site-footer -->
