@@ -25,18 +25,17 @@ exit();
                             <div class="col-xl-6 col-lg-6 col-12">
                                 <div class="wpo-static-hero-inner">
                                     <div data-swiper-parallax="300" class="slide-title">
-                                        <h2><span>Hello,</span>
-                                            I am Ronald.</h2>
+                                        <h2><span>Hello, I am </span>
+                                            Muhmmad Aqib.</h2>
                                     </div>
                                     <div data-swiper-parallax="300" class="slide-sub-title">
                                         <h5>Web Developer</h5>
                                     </div>
                                     <div data-swiper-parallax="400" class="slide-text">
-                                        <p>Must explain to how all this mistaken idea denouncing pleasure pain
-                                            the system and expound the actua.</p>
+                                        <p>I am a professional Web and WordPress Developer, specializing in crafting responsive, high-performance websites and delivering tailored solutions that align with client objectives.</p>
                                     </div>
                                     <div class="clearfix"></div>
-                                    <div class="slide-btn"><a class="theme-btn" href="about.php">Hire Me</a></div>
+                                    <div class="slide-btn"><a class="theme-btn" href="#about">Hire Me</a></div>
                                 </div>
                             </div>
                         </div>
@@ -55,7 +54,7 @@ exit();
                                 <i class="fi flaticon-verified"></i>
                             </div>
                             <div class="p-text">
-                                <h3><span class="odometer" data-count="2000">00</span>+</h3>
+                                <h3><span class="odometer" data-count="20">00</span>+</h3>
                                 <p>Complete Project</p>
                             </div>
                         </div>
@@ -117,13 +116,13 @@ exit();
         <!-- end of hero slider -->
 
         <!-- start of wpo-about-area -->
-        <div class="wpo-about-area section-padding">
+        <div class="wpo-about-area section-padding" id="about">
             <div class="container">
                 <div class="row align-items-center">
                     <div class="col-lg-5 col-md-12 col-sm-12">
                         <div class="wpo-about-exprience-wrap">
                             <div class="wpo-about-exprience">
-                                <h2>08</h2>
+                                <h2>02</h2>
                                 <span>Years of Experience</span>
                             </div>
                             <div class="client">
@@ -135,46 +134,44 @@ exit();
                     <div class="col-lg-6 offset-lg-1 col-md-12 col-sm-12">
                         <div class="wpo-about-content">
                             <div class="wpo-about-title">
-                                <h2>My Advantage</h2>
-                                <p>Must explain to you how all this mistaken idea of denouncing
-                                    pleasure and praising pain was born and I will give you a complete account
-                                    the system and expound the actual and praising pain was born.</p>
+                                <h2>My Strengths</h2>
+                                <p>I will show you how my passion for crafting seamless web experiences was built, giving you a complete insight into my development process and revealing the real skills and creativity that drive my work.</p>
                             </div>
                             <div class="wpo-about-funfact">
                                 <div class="grid">
                                     <div class="grid-inner">
-                                        <h3><span class="odometer" data-count="98">00</span>%</h3>
-                                        <p>Figma</p>
-                                    </div>
-                                </div>
-                                <div class="grid">
-                                    <div class="grid-inner">
-                                        <h3><span class="odometer" data-count="92">00</span>%</h3>
-                                        <p>Sketch</p>
-                                    </div>
-                                </div>
-                                <div class="grid">
-                                    <div class="grid-inner">
-                                        <h3><span class="odometer" data-count="88">00</span>%</h3>
-                                        <p>Photoshop</p>
-                                    </div>
-                                </div>
-                                <div class="grid">
-                                    <div class="grid-inner">
-                                        <h3><span class="odometer" data-count="72">00</span>%</h3>
-                                        <p>Illustrator</p>
-                                    </div>
-                                </div>
-                                <div class="grid">
-                                    <div class="grid-inner">
-                                        <h3><span class="odometer" data-count="43">00</span>%</h3>
+                                        <h3><span class="odometer" data-count="78">00</span>%</h3>
                                         <p>WordPress</p>
                                     </div>
                                 </div>
                                 <div class="grid">
                                     <div class="grid-inner">
+                                        <h3><span class="odometer" data-count="52">00</span>%</h3>
+                                        <p>PHP</p>
+                                    </div>
+                                </div>
+                                <div class="grid">
+                                    <div class="grid-inner">
+                                        <h3><span class="odometer" data-count="40">00</span>%</h3>
+                                        <p>Laravel</p>
+                                    </div>
+                                </div>
+                                <div class="grid">
+                                    <div class="grid-inner">
+                                        <h3><span class="odometer" data-count="72">00</span>%</h3>
+                                        <p>BootStrap</p>
+                                    </div>
+                                </div>
+                                <div class="grid">
+                                    <div class="grid-inner">
+                                        <h3><span class="odometer" data-count="25">00</span>%</h3>
+                                        <p>Tailwind CSS</p>
+                                    </div>
+                                </div>
+                                <div class="grid">
+                                    <div class="grid-inner">
                                         <h3><span class="odometer" data-count="37">00</span>%</h3>
-                                        <p>ReactJS</p>
+                                        <p>JavaScript</p>
                                     </div>
                                 </div>
                             </div>
@@ -237,16 +234,12 @@ exit();
                     <ul class="nav nav-tabs" id="myTab" role="tablist">
                         <li class="nav-item" role="presentation">
                             <a class="nav-link" id="Development-tab" data-bs-toggle="tab" href="#Development" role="tab"
-                                aria-controls="Development" aria-selected="true">Development</a>
+                                aria-controls="Development" aria-selected="true">Custom Code</a>
                         </li>
                         <li class="nav-item" role="presentation">
-                            <a class="nav-link active" id="Design-tab" data-bs-toggle="tab" href="#Wordpress" role="tab"
-                                aria-controls="Design" aria-selected="false">WordPress</a>
+                            <a class="nav-link active" id="Design-tab" data-bs-toggle="tab" href="#Design" role="tab"
+                                aria-controls="Design" aria-selected="false">Wordpress</a>
                         </li>
-                        <!-- <li class="nav-item" role="presentation">
-                            <a class="nav-link" id="Marketing-tab" data-bs-toggle="tab" href="#Marketing" role="tab"
-                                aria-controls="Marketing" aria-selected="false">Marketing</a>
-                        </li> -->
                     </ul>
                     <div class="tab-content">
                         <div role="tabpanel" class="tab-pane" id="Development">
@@ -256,10 +249,9 @@ exit();
                                         <div class="icon">
                                             <i class="fi flaticon-coding"></i>
                                         </div>
-                                        <h2>Web Development</h2>
-                                        <p>Explain to you how all this mistaken idea of denouncing pleasure born and
-                                            give you complete account the system.</p>
-                                        <a href="service-single.php">Learn More</a>
+                                        <h2>PHP</h2>
+                                        <p>As a PHP developer, I design and build fast, secure, and responsive websites tailored to client needs, using frameworks like Laravel, CodeIgniter, or core PHP.</p>
+                                        <!-- <a href="service-single.php">Learn More</a> -->
                                     </div>
                                 </div>
                                 <div class="col-lg-4 col-md-6 col-12">
@@ -267,10 +259,8 @@ exit();
                                         <div class="icon">
                                             <i class="fi flaticon-app-development"></i>
                                         </div>
-                                        <h2>App Development</h2>
-                                        <p>Explain to you how all this mistaken idea of denouncing pleasure born and
-                                            give you complete account the system.</p>
-                                        <a href="service-single.php">Learn More</a>
+                                        <h2>Laravel</h2>
+                                        <p>I build robust and user-friendly applications using Laravel, ensuring clean code, high performance, and long-term maintainability.</p>
                                     </div>
                                 </div>
                                 <div class="col-lg-4 col-md-6 col-12">
@@ -278,10 +268,8 @@ exit();
                                         <div class="icon">
                                             <i class="fi flaticon-smartphone"></i>
                                         </div>
-                                        <h2>Softwere Development</h2>
-                                        <p>Explain to you how all this mistaken idea of denouncing pleasure born and
-                                            give you complete account the system.</p>
-                                        <a href="service-single.php">Learn More</a>
+                                        <h2>BootStrap</h2>
+                                        <p>I use Bootstrap to design clean, responsive, and professional layouts that look great on any device.</p>
                                     </div>
                                 </div>
                             </div>
@@ -293,10 +281,8 @@ exit();
                                         <div class="icon">
                                             <i class="fi flaticon-vector"></i>
                                         </div>
-                                        <h2>Graphic Design</h2>
-                                        <p>Explain to you how all this mistaken idea of denouncing pleasure born and
-                                            give you complete account the system.</p>
-                                        <a href="service-single.php">Learn More</a>
+                                        <h2>WordPress Website Builder</h2>
+                                        <p>I build modern, responsive, and user-friendly websites using WordPress, tailored to meet client goals.</p>
                                     </div>
                                 </div>
                                 <div class="col-lg-4 col-md-6 col-12">
@@ -304,10 +290,8 @@ exit();
                                         <div class="icon">
                                             <i class="fi flaticon-palette"></i>
                                         </div>
-                                        <h2>Brand Identity</h2>
-                                        <p>Explain to you how all this mistaken idea of denouncing pleasure born and
-                                            give you complete account the system.</p>
-                                        <a href="service-single.php">Learn More</a>
+                                        <h2>Theme Customizer</h2>
+                                        <p>I use the WordPress Theme Customizer to deliver tailored, visually appealing websites that reflect client branding.</p>
                                     </div>
                                 </div>
                                 <div class="col-lg-4 col-md-6 col-12">
@@ -315,47 +299,8 @@ exit();
                                         <div class="icon">
                                             <i class="fi flaticon-add"></i>
                                         </div>
-                                        <h2>UI/UX Design</h2>
-                                        <p>Explain to you how all this mistaken idea of denouncing pleasure born and
-                                            give you complete account the system.</p>
-                                        <a href="service-single.php">Learn More</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div role="tabpanel" class="tab-pane" id="Marketing">
-                            <div class="row align-items-center">
-                                <div class="col-lg-4 col-md-6 col-12">
-                                    <div class="wpo-service-item">
-                                        <div class="icon">
-                                            <i class="fi flaticon-social-media"></i>
-                                        </div>
-                                        <h2>Social Media Marketing</h2>
-                                        <p>Explain to you how all this mistaken idea of denouncing pleasure born and
-                                            give you complete account the system.</p>
-                                        <a href="service-single.php">Learn More</a>
-                                    </div>
-                                </div>
-                                <div class="col-lg-4 col-md-6 col-12">
-                                    <div class="wpo-service-item">
-                                        <div class="icon">
-                                            <i class="fi flaticon-promotion"></i>
-                                        </div>
-                                        <h2>Digital Marketing</h2>
-                                        <p>Explain to you how all this mistaken idea of denouncing pleasure born and
-                                            give you complete account the system.</p>
-                                        <a href="service-single.php">Learn More</a>
-                                    </div>
-                                </div>
-                                <div class="col-lg-4 col-md-6 col-12">
-                                    <div class="wpo-service-item">
-                                        <div class="icon">
-                                            <i class="fi flaticon-email-marketing"></i>
-                                        </div>
-                                        <h2>Email Marketing</h2>
-                                        <p>Explain to you how all this mistaken idea of denouncing pleasure born and
-                                            give you complete account the system.</p>
-                                        <a href="service-single.php">Learn More</a>
+                                        <h2>Plugin Integrator</h2>
+                                        <p>I specialize in integrating and customizing WordPress plugins to add advanced features and improve website performance.</p>
                                     </div>
                                 </div>
                             </div>
@@ -404,7 +349,7 @@ exit();
                     <div class="wpo-work-item">
                         <ul>
                             <li class="date">Oct 2024 - Dec 2024</li>
-                            <li class="logo"><img src="assets/images/work/RoboSticks.webp" alt="" width="100"></li>
+                            <li class="logo"><img src="assets/images/work/RoboSticks.jpg" alt="" width="200"></li>
                             <li class="position">Internee WordPress Develeper <span>RoboSticks, Lahore</span></li>
                             <li class="link"><a href="#">Go to website</a></li>
                         </ul>
@@ -434,14 +379,13 @@ exit();
             <div class="container">
                 <div class="wpo-section-title-s2">
                     <div class="row align-items-center">
-                        <div class="col-lg-4 col-12">
+                        <div class="col-lg-5 col-12">
                             <div class="title">
-                                <h2>Recent Work.</h2>
-                                <p>Must explain to you how all this mistaken idea pleasure
-                                    born and give you a complete account.</p>
+                                <h2>Our Recent Creations.</h2>
+                                <p>Explore my portfolio — these are the projects I’ve delivered for my clients.</p>
                             </div>
                         </div>
-                        <div class="col-lg-6 offset-lg-2">
+                        <div class="col-lg-5 offset-lg-2">
                             <div class="sec-title-icon">
                                 <i class="fi flaticon-self-growth"></i>
                             </div>
@@ -451,56 +395,92 @@ exit();
                 <div class="wpo-project-wrap wpo-project-slide owl-carousel">
                     <div class="wpo-project-item">
                         <div class="wpo-project-img">
-                            <img src="assets/images/project/img-1.jpg" alt="">
+                            <img src="assets/images/project/FrontLine.png" alt="">
                         </div>
                         <div class="wpo-project-text">
-                            <h2><a href="portfolio-single.php">Arkio - Architecture & Interior WordPress Theme</a></h2>
-                            <span>Architecture / Business</span>
+                            <h2><a href="https://frontlinelimo.com/">FrontLine Black Car Service <br>(Glenn Bernie)</a></h2>
+                            <span>Wordpress Elementor</span>
                         </div>
                     </div>
                     <div class="wpo-project-item">
                         <div class="wpo-project-img">
-                            <img src="assets/images/project/img-2.jpg" alt="">
+                            <img src="assets/images/project/ThePartyBus.png" alt="">
                         </div>
                         <div class="wpo-project-text">
-                            <h2><a href="portfolio-single.php">Follio - Multipurpose Portfolio HTML5 Template</a></h2>
-                            <span>Web Design</span>
+                            <h2><a href="https://thepartybuscharter.com/">The Party Bus Charter <br>(NewBurgh)</a></h2>
+                            <span>Wordpress Elementor</span>
                         </div>
                     </div>
                     <div class="wpo-project-item">
                         <div class="wpo-project-img">
-                            <img src="assets/images/project/img-3.jpg" alt="">
+                            <img src="assets/images/project/PortLandLuxCar.png" alt="">
                         </div>
                         <div class="wpo-project-text">
-                            <h2><a href="portfolio-single.php">Elito - Creative Portfolio HTML5 Template</a></h2>
-                            <span>Website / Creative</span>
+                            <h2><a href="https://portlandluxcar.com/">Portland Luxury Car Service <br>(Portland)</a></h2>
+                            <span>Wordpress Elementor</span>
                         </div>
                     </div>
                     <div class="wpo-project-item">
                         <div class="wpo-project-img">
-                            <img src="assets/images/project/img-1.jpg" alt="">
+                            <img src="assets/images/project/MeticulousBlonds.png" alt="">
                         </div>
                         <div class="wpo-project-text">
-                            <h2><a href="portfolio-single.php">Arkio - Architecture & Interior WordPress Theme</a></h2>
-                            <span>Architecture / Business</span>
+                            <h2><a href="https://meticulousblinds.com/">Meticulous Blinds <br>(MiddleTown)</a></h2>
+                            <span>Wordpress Elementor</span>
                         </div>
                     </div>
                     <div class="wpo-project-item">
                         <div class="wpo-project-img">
-                            <img src="assets/images/project/img-2.jpg" alt="">
+                            <img src="assets/images/project/MeticulousBlindsAnnapolis.png" alt="">
                         </div>
                         <div class="wpo-project-text">
-                            <h2><a href="portfolio-single.php">Follio - Multipurpose Portfolio HTML5 Template</a></h2>
-                            <span>Web Design</span>
+                            <h2><a href="https://meticulousblinds.com/annapolis/">Meticulous Blinds of  Annapolis <br>(Annapolis)</a></h2>
+                            <span>Wordpress Elementor</span>
                         </div>
                     </div>
                     <div class="wpo-project-item">
                         <div class="wpo-project-img">
-                            <img src="assets/images/project/img-3.jpg" alt="">
+                            <img src="assets/images/project/AboveAllCar.png" alt="">
                         </div>
                         <div class="wpo-project-text">
-                            <h2><a href="portfolio-single.php">Elito - Creative Portfolio HTML5 Template</a></h2>
-                            <span>Website / Creative</span>
+                            <h2><a href="https://aboveallcarsservices.com/">Above All Car Service <br>(GreenVille)</a></h2>
+                            <span>Wordpress Elementor</span>
+                        </div>
+                    </div>
+                    <div class="wpo-project-item">
+                        <div class="wpo-project-img">
+                            <img src="assets/images/project/RaafiaMemon.png" alt="">
+                        </div>
+                        <div class="wpo-project-text">
+                            <h2><a href="https://raafiamemon.com/">Dr. Raafia Memon <br>(Newark)</a></h2>
+                            <span>Wordpress Elementor</span>
+                        </div>
+                    </div>
+                    <div class="wpo-project-item">
+                        <div class="wpo-project-img">
+                            <img src="assets/images/project/LanternLight.png" alt="">
+                        </div>
+                        <div class="wpo-project-text">
+                            <h2><a href="https://lanternlightinn.com/">Lantern Light Inn & Wedding Gardens <br>(Sedona)</a></h2>
+                            <span>Wordpress Elementor</span>
+                        </div>
+                    </div>
+                    <div class="wpo-project-item">
+                        <div class="wpo-project-img">
+                            <img src="assets/images/project/A1Dumpster.png" alt="">
+                        </div>
+                        <div class="wpo-project-text">
+                            <h2><a href="https://a1dumpstersrental.com/">A1 Dumpster Rentals <br>(Wilmington)</a></h2>
+                            <span>Wordpress Elememtor</span>
+                        </div>
+                    </div>
+                    <div class="wpo-project-item">
+                        <div class="wpo-project-img">
+                            <img src="assets/images/project/Seattle.png" alt="">
+                        </div>
+                        <div class="wpo-project-text">
+                            <h2><a href="https://seattleexoticlimousineservices.com/">Seattle Exotic Limousine Services <br>(Seattle)</a></h2>
+                            <span>Wordpress Elementor</span>
                         </div>
                     </div>
                 </div>
@@ -530,7 +510,7 @@ exit();
         <!-- end of wpo-project-area -->
 
         <!--Start wpo-testimonial-section-->
-        <section class="wpo-testimonial-section section-padding">
+        <!-- <section class="wpo-testimonial-section section-padding">
             <div class="container">
                 <div class="wpo-testimonial-wrap">
                     <div class="row align-items-center">
@@ -699,7 +679,7 @@ exit();
             </div>
             <div class="left-shape"></div>
             <div class="right-shape"><img src="assets/images/testimonial/shape.png" alt=""></div>
-        </section>
+        </section> -->
         <!--End wpo-testimonial-section-->
 
         <!-- start of wpo-blog-section -->

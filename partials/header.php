@@ -15,7 +15,7 @@
                     </div>
                     <div class="col-lg-2 col-md-6 col-6">
                         <div class="navbar-header">
-                            <a class="navbar-brand site-logo" href="index.php"><img
+                            <a class="navbar-brand site-logo" href=""><img
                                     src="assets/images/logo.png" alt="">AAQIB.</a>
                         </div>
                     </div>
@@ -24,22 +24,22 @@
                             <button class="menu-close"><i class="ti-close"></i></button>
                             <ul class="nav navbar-nav mb-2 mb-lg-0">
                                 <li class="menu-item-has-children">
-                                    <a href="index.php">Home</a>
+                                    <a href="">Home</a>
                                 </li>
                                 <li>
-                                    <a href="about.php">About</a>
+                                    <a href="">About</a>
                                 </li>
                                 <li class="menu-item-has-children">
-                                    <a href="service.php">Service</a>
+                                    <a href="">Service</a>
                                 </li>
                                 <li class="menu-item-has-children">
-                                    <a href="portfolio-grid.php">Portfolio</a>  
+                                    <a href="">Portfolio</a>  
                                 </li>
                                 <li class="menu-item-has-children">
-                                    <a href="#">Blog</a>
+                                    <a href="">Blog</a>
                                 </li>
                                 <li>
-                                    <a href="contact.php">Contact</a>
+                                    <a href="">Contact</a>
                                 </li>
                             </ul>
                         </div><!-- end of nav-collapse -->
@@ -47,9 +47,9 @@
                     <div class="col-lg-2 col-md-2 col-2">
                         <div class="header-right">
                             <div class="header-btn">
-                                <a class="theme-btn" download="My Cv" href="assets/images/cv.jpg"
+                                <a class="theme-btn" download="My Cv" href=""
                                     title="ImageName">
-                                    <img class="hide-img" alt="ImageName" src="assets/images/cv.jpg">
+                                    <img class="hide-img" alt="ImageName" src="">
                                     Resume
                                 </a>
                             </div>

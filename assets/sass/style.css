@@ -3416,7 +3416,7 @@ img {
 }
 .static-hero .slide-title h2 {
   color: #fff;
-  font-size: 90px;
+  font-size: 65px;
   text-transform: capitalize;
   font-weight: 700;
   line-height: 105%;
@@ -4719,6 +4719,13 @@ img {
 .wpo-service-area .wpo-service-wrap .wpo-service-item:hover .icon .fi:before,
 .wpo-service-area-s2 .wpo-service-wrap .wpo-service-item:hover .icon .fi:before {
   color: #fff;
+}
+
+svg{
+    width: 70px;
+}
+.wpo-service-item:hover g{
+    fill: white;
 }
 
 /* 3.4 wpo-work-area  */
