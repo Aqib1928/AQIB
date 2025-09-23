@@ -24,22 +24,22 @@
                             <button class="menu-close"><i class="ti-close"></i></button>
                             <ul class="nav navbar-nav mb-2 mb-lg-0">
                                 <li class="menu-item-has-children">
-                                    <a href="">Home</a>
+                                    <a href="#div">Home</a>
                                 </li>
                                 <li>
-                                    <a href="">About</a>
+                                    <a href="#about">About</a>
                                 </li>
                                 <li class="menu-item-has-children">
-                                    <a href="">Service</a>
+                                    <a href="#service">Service</a>
                                 </li>
                                 <li class="menu-item-has-children">
-                                    <a href="">Portfolio</a>  
+                                    <a href="#work">Portfolio</a>  
                                 </li>
                                 <li class="menu-item-has-children">
-                                    <a href="">Blog</a>
+                                    <a href="#project">Projects</a>
                                 </li>
                                 <li>
-                                    <a href="">Contact</a>
+                                    <a href="contact.php">Contact</a>
                                 </li>
                             </ul>
                         </div><!-- end of nav-collapse -->
@@ -47,11 +47,7 @@
                     <div class="col-lg-2 col-md-2 col-2">
                         <div class="header-right">
                             <div class="header-btn">
-                                <a class="theme-btn" download="My Cv" href=""
-                                    title="ImageName">
-                                    <img class="hide-img" alt="ImageName" src="">
-                                    Resume
-                                </a>
+                                <a class="theme-btn" download="Muhammad Aqib" href="assets\Muhammad_Aqib.pdf">Resume</a>
                             </div>
                         </div>
                     </div>
