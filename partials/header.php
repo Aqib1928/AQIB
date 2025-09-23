@@ -24,19 +24,19 @@
                             <button class="menu-close"><i class="ti-close"></i></button>
                             <ul class="nav navbar-nav mb-2 mb-lg-0">
                                 <li class="menu-item-has-children">
-                                    <a href="#div">Home</a>
+                                    <a href="./#home">Home</a>
                                 </li>
                                 <li>
-                                    <a href="#about">About</a>
+                                    <a href="./#about">About</a>
                                 </li>
                                 <li class="menu-item-has-children">
-                                    <a href="#service">Service</a>
+                                    <a href="./#service">Service</a>
                                 </li>
                                 <li class="menu-item-has-children">
-                                    <a href="#work">Portfolio</a>  
+                                    <a href="./#work">Portfolio</a>  
                                 </li>
                                 <li class="menu-item-has-children">
-                                    <a href="#project">Projects</a>
+                                    <a href="./#project">Projects</a>
                                 </li>
                                 <li>
                                     <a href="contact.php">Contact</a>

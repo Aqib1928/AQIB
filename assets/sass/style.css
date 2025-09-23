@@ -5449,7 +5449,7 @@ svg{
   display: inline-block;
   font-size: 18px;
   color: #fff;
-  padding: 10px 50px;
+  padding: 5px 30px;
   background: rgba(255, 255, 255, 0.35);
   position: relative;
   border-radius: 40px;
@@ -5493,7 +5493,7 @@ svg{
 }
 
 .wpo-protfolio-text {
-  padding: 40px;
+  padding: 20px;
   position: absolute;
   left: 0;
   bottom: 30px;
