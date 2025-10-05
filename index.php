@@ -7,9 +7,6 @@
 
     <!-- start page-wrapper -->
     <div class="page-wrapper">
-        <!-- start preloader -->
-        <?php include './partials/preloader.php' ?>
-        <!-- end preloader -->
         <!-- Start header -->
         <?php include './partials/header.php' ?>
         <!-- end of header -->
