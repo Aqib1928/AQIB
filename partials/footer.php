@@ -19,12 +19,12 @@
     <div class="upper-footer">
         <div class="container">
             <div class="row">
-                <div class="col col-6">
+                <div class="col col-md-6 col-12">
                     <div class="copyright-text">
                         <p class="copyright">Copyright &copy; 2025 AAQIB. All rights reserved.</p>
                     </div>
                 </div>
-                <div class="col col-6">
+                <div class="col col-md-6 col-12">
                     <div class="widget about-widget">
                         <div class="social-icons">
                             <ul>
