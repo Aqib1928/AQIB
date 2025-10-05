@@ -88,7 +88,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-lg-4 col-md-4 col-12 custom-grid wordPress" data-wow-duration="2000ms">
+                            <div class="col-lg-3 col-md-4 col-12 custom-grid wordPress" data-wow-duration="2000ms">
                                 <div class="">
                                     <div class="wpo-protfolio-single">
                                         <div class="wpo-protfolio-img">
@@ -102,7 +102,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-lg-4 col-md-4 col-12 custom-grid wordPress" data-wow-duration="2000ms">
+                            <div class="col-lg-3 col-md-4 col-12 custom-grid wordPress" data-wow-duration="2000ms">
                                 <div class="">
                                     <div class="wpo-protfolio-single">
                                         <div class="wpo-protfolio-img">
@@ -116,7 +116,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-lg-4 col-md-4 col-12 custom-grid wordPress" data-wow-duration="2000ms">
+                            <div class="col-lg-3 col-md-4 col-12 custom-grid wordPress" data-wow-duration="2000ms">
                                 <div class="">
                                     <div class="wpo-protfolio-single">
                                         <div class="wpo-protfolio-img">
@@ -130,7 +130,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-lg-4 col-md-4 col-12 custom-grid wordPress" data-wow-duration="2000ms">
+                            <div class="col-lg-3 col-md-4 col-12 custom-grid wordPress" data-wow-duration="2000ms">
                                 <div class="">
                                     <div class="wpo-protfolio-single">
                                         <div class="wpo-protfolio-img">
@@ -144,7 +144,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-lg-4 col-md-4 col-12 custom-grid wordPress" data-wow-duration="2000ms">
+                            <div class="col-lg-3 col-md-4 col-12 custom-grid wordPress" data-wow-duration="2000ms">
                                 <div class="">
                                     <div class="wpo-protfolio-single">
                                         <div class="wpo-protfolio-img">
@@ -158,7 +158,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-lg-4 col-md-4 col-12 custom-grid wordPress" data-wow-duration="2000ms">
+                            <div class="col-lg-3 col-md-4 col-12 custom-grid wordPress" data-wow-duration="2000ms">
                                 <div class="">
                                     <div class="wpo-protfolio-single">
                                         <div class="wpo-protfolio-img">
