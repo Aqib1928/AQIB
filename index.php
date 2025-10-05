@@ -14,7 +14,7 @@
         <?php include './partials/header.php' ?>
         <!-- end of header -->
         <!-- start of hero -->
-        <section class="static-hero" id='div'>
+        <section class="static-hero" id='home'>
             <div class="hero-container">
                 <div class="hero-inner">
                     <div class="container">
@@ -391,82 +391,46 @@
                 <div class="wpo-project-wrap wpo-project-slide owl-carousel">
                     <div class="wpo-project-item">
                         <div class="wpo-project-img">
-                            <img src="assets/images/project/FrontLine.png" alt="">
+                            <img src="assets/images/project/1. Musab Sultan.jpg" alt="">
                         </div>
                         <div class="wpo-project-text">
-                            <h2><a href="https://frontlinelimo.com/">FrontLine Black Car Service <br>(Glenn Bernie)</a></h2>
+                            <h2><a href="https://musabsultanalliance.com/">Musab Sultan Alliance<br>(Karachi, Sindh)</a></h2>
                             <span>Wordpress Elementor</span>
                         </div>
                     </div>
                     <div class="wpo-project-item">
                         <div class="wpo-project-img">
-                            <img src="assets/images/project/ThePartyBus.png" alt="">
+                            <img src="assets/images/project/2. Tailored Tech.jpg" alt="">
                         </div>
                         <div class="wpo-project-text">
-                            <h2><a href="https://thepartybuscharter.com/">The Party Bus Charter <br>(NewBurgh)</a></h2>
+                            <h2><a href="https://tailoredtechllc.com/">Tailored Tech LLC</a></h2>
                             <span>Wordpress Elementor</span>
                         </div>
                     </div>
                     <div class="wpo-project-item">
                         <div class="wpo-project-img">
-                            <img src="assets/images/project/PortLandLuxCar.png" alt="">
+                            <img src="assets/images/project/4. The Party Bus Charter.jpg" alt="">
                         </div>
                         <div class="wpo-project-text">
-                            <h2><a href="https://portlandluxcar.com/">Portland Luxury Car Service <br>(Portland)</a></h2>
+                            <h2><a href="https://thepartybuscharter.com/">The Party Bus Charter <br>(Newburgh, New York)</a></h2>
                             <span>Wordpress Elementor</span>
                         </div>
                     </div>
                     <div class="wpo-project-item">
                         <div class="wpo-project-img">
-                            <img src="assets/images/project/MeticulousBlonds.png" alt="">
+                            <img src="assets/images/project/7. Curry Nation Atx.jpg" alt="">
                         </div>
                         <div class="wpo-project-text">
-                            <h2><a href="https://meticulousblinds.com/">Meticulous Blinds <br>(MiddleTown)</a></h2>
+                            <h2><a href="https://currynationatx.com/">Curry Nation Atx <br>(Austin, Texas)</a></h2>
                             <span>Wordpress Elementor</span>
                         </div>
                     </div>
                     <div class="wpo-project-item">
                         <div class="wpo-project-img">
-                            <img src="assets/images/project/AboveAllCar.png" alt="">
+                            <img src="assets/images/project/8. Sv Dharm Ashala.jpg" alt="">
                         </div>
                         <div class="wpo-project-text">
-                            <h2><a href="https://aboveallcarsservices.com/">Above All Car Service <br>(GreenVille)</a></h2>
-                            <span>Wordpress Elementor</span>
-                        </div>
-                    </div>
-                    <div class="wpo-project-item">
-                        <div class="wpo-project-img">
-                            <img src="assets/images/project/RaafiaMemon.png" alt="">
-                        </div>
-                        <div class="wpo-project-text">
-                            <h2><a href="https://raafiamemon.com/">Dr. Raafia Memon <br>(Newark)</a></h2>
-                            <span>Wordpress Elementor</span>
-                        </div>
-                    </div>
-                    <div class="wpo-project-item">
-                        <div class="wpo-project-img">
-                            <img src="assets/images/project/LanternLight.png" alt="">
-                        </div>
-                        <div class="wpo-project-text">
-                            <h2><a href="https://lanternlightinn.com/">Lantern Light Inn & Wedding Gardens <br>(Sedona)</a></h2>
-                            <span>Wordpress Elementor</span>
-                        </div>
-                    </div>
-                    <div class="wpo-project-item">
-                        <div class="wpo-project-img">
-                            <img src="assets/images/project/A1Dumpster.png" alt="">
-                        </div>
-                        <div class="wpo-project-text">
-                            <h2><a href="https://a1dumpstersrental.com/">A1 Dumpster Rentals <br>(Wilmington)</a></h2>
-                            <span>Wordpress Elememtor</span>
-                        </div>
-                    </div>
-                    <div class="wpo-project-item">
-                        <div class="wpo-project-img">
-                            <img src="assets/images/project/Seattle.png" alt="">
-                        </div>
-                        <div class="wpo-project-text">
-                            <h2><a href="https://seattleexoticlimousineservices.com/">Seattle Exotic Limousine Services <br>(Seattle)</a></h2>
+                            <h2><a href="https://svdharmashala.org/">Sv Dharm Ashala <br>(Carpentersville, Illinois)</a></h2>
                             <span>Wordpress Elementor</span>
                         </div>
                     </div>

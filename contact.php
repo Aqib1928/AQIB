@@ -10,7 +10,7 @@
         <?php include './partials/preloader.php' ?>
         <!-- end preloader -->
         <!-- Start header -->
-        <?php include './partials/header-two.php' ?>
+        <?php include './partials/header.php' ?>
         <!-- end of header -->
         <!-- start wpo-page-title -->
         <?php
@@ -36,7 +36,7 @@
                                         </div>
                                         <div class="office-info-text">
                                             <h2>Address</h2>
-                                            <p>7 Green Lake Street Crawfordsville, IN 47933</p>
+                                            <p>Lahore, Punjab, Pakistan</p>
                                         </div>
                                     </div>
                                 </div> 
@@ -49,8 +49,7 @@
                                         </div>
                                         <div class="office-info-text">
                                             <h2>Email Us</h2>
-                                            <p>Elito@gmail.com</p>
-                                            <p>helloyou@gmail.com</p>
+                                            <a href="mailto:aqib21028@gmail.com">aqib21028@gmail.com</a>
                                         </div>
                                     </div>
                                 </div> 
@@ -63,8 +62,7 @@
                                         </div>
                                         <div class="office-info-text">
                                             <h2>Call Now</h2>
-                                            <p>+1 800 123 456 789</p>
-                                            <p>+1 800 123 654 987</p>
+                                            <a href="tel:+923181464026">+92 318 146 4026</a>
                                         </div>
                                     </div>
                                 </div> 
@@ -136,35 +134,10 @@
         <section class="wpo-contact-map-section">
             <h2 class="hidden">Contact map</h2>
             <div class="wpo-contact-map">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d193595.9147703055!2d-74.11976314309273!3d40.69740344223377!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew+York%2C+NY%2C+USA!5e0!3m2!1sen!2sbd!4v1547528325671" allowfullscreen></iframe>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d197061.45273038244!2d74.3343893!3d31.482940349999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39190483e58107d9%3A0xc23abe6ccc7e2462!2sLahore!5e1!3m2!1sen!2s!4v1759673477576!5m2!1sen!2s" allowfullscreen loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
         </section>
         <!-- end wpo-contact-map -->
-        <!-- wpo-partners-area-start -->
-        <section class="partners-section">
-            <h2 class="hidden">partner</h2>
-            <div class="container">
-                <div class="row">
-                    <div class="col col-xs-12">
-                        <div class="partner-grids partners-slider owl-carousel clearfix">
-                            <div class="grid">
-                                <img src="assets/images/partners/1.png" alt="">
-                            </div>
-                            <div class="grid">
-                                <img src="assets/images/partners/2.png" alt="">
-                            </div>
-                            <div class="grid">
-                                <img src="assets/images/partners/3.png" alt="">
-                            </div>
-                            <div class="grid">
-                                <img src="assets/images/partners/4.png" alt="">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div> <!-- end contianer -->
-        </section>
-        <!-- partners-area-end -->
 
         <!-- start wpo-site-footer -->
         <?php include './partials/footer-two.php' ?>

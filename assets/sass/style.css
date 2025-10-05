@@ -605,7 +605,7 @@ img {
   overflow: hidden;
 }
 .social-links li {
-  float: left;
+  float: right;
   width: 35px;
   height: 35px;
   margin-right: 1px;
@@ -3896,7 +3896,7 @@ img {
 }
 .wpo-site-footer .upper-footer,
 .wpo-site-footer-s2 .upper-footer {
-  padding: 90px 0;
+  padding: 10px 0;
   z-index: 1;
   overflow: hidden;
   position: relative;
@@ -4017,11 +4017,6 @@ img {
 .wpo-site-footer .about-widget p:last-child,
 .wpo-site-footer-s2 .about-widget p:last-child {
   margin-bottom: 0;
-}
-.wpo-site-footer .about-widget .social-icons ul,
-.wpo-site-footer-s2 .about-widget .social-icons ul {
-  overflow: hidden;
-  padding-top: 15px;
 }
 @media (max-width: 767px) {
   .wpo-site-footer .about-widget .social-icons ul,
