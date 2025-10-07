@@ -16,7 +16,7 @@
                     <div class="col-lg-2 col-md-6 col-6">
                         <div class="navbar-header">
                             <a class="navbar-brand site-logo" href=""><img
-                                    src="assets/images/logo.png" alt="">AAQIB.</a>
+                                    src="assets/images/logo.png" alt=""></a>
                         </div>
                     </div>
                     <div class="col-lg-8 col-md-1 col-1">
