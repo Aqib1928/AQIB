@@ -1,3 +1,57 @@
+<?php
+$success = "";
+$error = "";
+
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
+    $name    = htmlspecialchars(trim($_POST['name']));
+    $email   = htmlspecialchars(trim($_POST['email']));
+    $adress  = htmlspecialchars(trim($_POST['adress']));
+    $service = htmlspecialchars(trim($_POST['service']));
+    $note    = htmlspecialchars(trim($_POST['note']));
+
+    $to = "your@email.com"; // ← replace with your own email
+    $subject = "New Contact Form Message from $name";
+
+    $message = "
+    <html>
+    <head>
+        <style>
+            body { font-family: Arial, sans-serif; background-color:#f9f9f9; padding:20px; }
+            .container { background:#fff; padding:20px; border-radius:8px; box-shadow:0 0 10px #ddd; }
+            h2 { color:#333; }
+            p { margin:8px 0; }
+            .footer { margin-top:20px; font-size:13px; color:#777; }
+        </style>
+    </head>
+    <body>
+        <div class='container'>
+            <h2>New Inquiry Received</h2>
+            <p><strong>Name:</strong> $name</p>
+            <p><strong>Email:</strong> $email</p>
+            <p><strong>Address:</strong> $adress</p>
+            <p><strong>Service:</strong> $service</p>
+            <p><strong>Message:</strong><br>$note</p>
+            <div class='footer'>
+                <p>This message was sent from your website contact form.</p>
+            </div>
+        </div>
+    </body>
+    </html>
+    ";
+
+    $headers  = "MIME-Version: 1.0" . "\r\n";
+    $headers .= "Content-type:text/html;charset=UTF-8" . "\r\n";
+    $headers .= "From: $name <$email>" . "\r\n";
+
+    if (mail($to, $subject, $message, $headers)) {
+        $success = "Thank you! We will respond to you shortly.";
+    } else {
+        $error = "Error occurred while sending the message. Please try again later.";
+    }
+}
+?>
+
+
 <!DOCTYPE html>
 <html lang="en">
 <?php include './partials/head.php' ?>
@@ -71,19 +125,19 @@
                                 content of a page when looking.</p>
                         </div>
                         <div class="wpo-contact-form-area">
-                            <form method="post" class="contact-validation-active" id="contact-form-main">
+                            <form method="post" class="contact-validation-active" id="contactForm">
                                 <div>
-                                    <input type="text" class="form-control" name="name" id="name" placeholder="Your Name*">
+                                    <input type="text" class="form-control" name="name" id="name" placeholder="Your Name*" required>
                                 </div>
                                 <div>
-                                    <input type="email" class="form-control" name="email" id="email" placeholder="Your Email*">
+                                    <input type="email" class="form-control" name="email" id="email" placeholder="Your Email*" required>
                                 </div>
                                 <div>
-                                    <input type="text" class="form-control" name="adress" id="adress" placeholder="Adress">
+                                    <input type="text" class="form-control" name="adress" id="adress" placeholder="Address">
                                 </div>
                                 <div>
-                                    <select name="service" class="form-control">
-                                        <option disabled="disabled" selected="">Services</option>
+                                    <select name="service" class="form-control" required>
+                                        <option disabled selected>Services</option>
                                         <option>Photography</option>
                                         <option>The Rehearsal Dinner</option>
                                         <option>The Afterparty</option>
@@ -93,18 +147,19 @@
                                     </select>
                                 </div>
                                 <div class="fullwidth">
-                                    <textarea class="form-control" name="note"  id="note" placeholder="Message..."></textarea>
+                                    <textarea class="form-control" name="note" id="note" placeholder="Message..." required></textarea>
                                 </div>
                                 <div class="submit-area">
                                     <button type="submit" class="theme-btn-s2">Get in Touch</button>
-                                    <div id="loader">
-                                        <i class="ti-reload"></i>
-                                    </div>
                                 </div>
-                                <div class="clearfix error-handling-messages">
-                                    <div id="success">Thank you</div>
-                                    <div id="error"> Error occurred while sending email. Please try again later. </div>
-                                </div>
+
+                                <?php if (!empty($success)): ?>
+                                    <div id="success" style="color:green; margin-top:10px;"><?php echo $success; ?></div>
+                                <?php endif; ?>
+
+                                <?php if (!empty($error)): ?>
+                                    <div id="error" style="color:red; margin-top:10px;"><?php echo $error; ?></div>
+                                <?php endif; ?>
                             </form>
                         </div>
                     </div>                
