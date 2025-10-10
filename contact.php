@@ -2,6 +2,7 @@
 $success = "";
 $error = "";
 
+// When form is submitted
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $name    = htmlspecialchars(trim($_POST['name']));
     $email   = htmlspecialchars(trim($_POST['email']));
@@ -9,9 +10,12 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $service = htmlspecialchars(trim($_POST['service']));
     $note    = htmlspecialchars(trim($_POST['note']));
 
-    $to = "aqib21028@gmail.com"; // ← replace with your own email
+    // Change this email to your own
+    $to = "your@email.com";  
+
     $subject = "New Contact Form Message from $name";
 
+    // HTML email content
     $message = "
     <html>
     <head>
@@ -39,14 +43,16 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     </html>
     ";
 
+    // Headers for HTML email
     $headers  = "MIME-Version: 1.0" . "\r\n";
     $headers .= "Content-type:text/html;charset=UTF-8" . "\r\n";
     $headers .= "From: $name <$email>" . "\r\n";
 
+    // Send the email
     if (mail($to, $subject, $message, $headers)) {
-        $success = "Thank you! We will respond to you shortly.";
+        $success = "✅ Thank you! We will respond to you shortly.";
     } else {
-        $error = "Error occurred while sending the message. Please try again later.";
+        $error = "❌ Error occurred while sending the message. Please try again later.";
     }
 }
 ?>
@@ -125,7 +131,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                                 content of a page when looking.</p>
                         </div>
                         <div class="wpo-contact-form-area">
-                            <form method="post" class="contact-validation-active" id="contactForm">
+                            <form method="post" class="contact-validation-active" id="contactForm" style="max-width:500px; margin:auto;">
                                 <div>
                                     <input type="text" class="form-control" name="name" id="name" placeholder="Your Name*" required>
                                 </div>
@@ -149,16 +155,17 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                                 <div class="fullwidth">
                                     <textarea class="form-control" name="note" id="note" placeholder="Message..." required></textarea>
                                 </div>
-                                <div class="submit-area">
-                                    <button type="submit" class="theme-btn-s2">Get in Touch</button>
+                                <div class="submit-area" style="margin-top:10px;">
+                                    <button type="submit" class="theme-btn-s2" style="background:#333; color:#fff; padding:10px 20px; border:none; border-radius:4px;">Get in Touch</button>
                                 </div>
 
+                                <!-- SUCCESS / ERROR MESSAGES -->
                                 <?php if (!empty($success)): ?>
-                                    <div id="success" style="color:green; margin-top:10px;"><?php echo $success; ?></div>
+                                    <div id="success" style="color:green; margin-top:15px; font-weight:600;"><?php echo $success; ?></div>
                                 <?php endif; ?>
 
                                 <?php if (!empty($error)): ?>
-                                    <div id="error" style="color:red; margin-top:10px;"><?php echo $error; ?></div>
+                                    <div id="error" style="color:red; margin-top:15px; font-weight:600;"><?php echo $error; ?></div>
                                 <?php endif; ?>
                             </form>
                         </div>
