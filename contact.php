@@ -9,7 +9,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $service = htmlspecialchars(trim($_POST['service']));
     $note    = htmlspecialchars(trim($_POST['note']));
 
-    $to = "your@email.com"; // ← replace with your own email
+    $to = "aqib21028@gmail.com"; // ← replace with your own email
     $subject = "New Contact Form Message from $name";
 
     $message = "
