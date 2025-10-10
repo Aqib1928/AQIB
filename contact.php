@@ -82,15 +82,7 @@
                                     <input type="text" class="form-control" name="adress" id="adress" placeholder="Address">
                                 </div>
                                 <div>
-                                    <select name="service" class="form-control" required>
-                                        <option disabled selected>Services</option>
-                                        <option>Photography</option>
-                                        <option>The Rehearsal Dinner</option>
-                                        <option>The Afterparty</option>
-                                        <option>Videographers</option>
-                                        <option>Perfect Cake</option>
-                                        <option>All Of The Above</option>
-                                    </select>
+                                    <input type="text" class="form-control" name="service" id="service" placeholder="Service Required" required>
                                 </div>
                                 <div class="fullwidth">
                                     <textarea class="form-control" name="note" id="note" placeholder="Message..." required></textarea>
