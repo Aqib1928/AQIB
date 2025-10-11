@@ -39,16 +39,4 @@
             </div>
         </div>
     </div>
-
-    <?php
-if (isset($_GET['section'])) {
-    $section = $_GET['section'];
-    echo "<script>
-        window.addEventListener('DOMContentLoaded', function() {
-            window.location.hash = '#{$section}';
-        });
-    </script>";
-}
-?>
-
 </footer>

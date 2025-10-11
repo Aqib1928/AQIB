@@ -28,4 +28,16 @@
     <!-- Custom styles for this template -->
     <link href="assets/sass/style.css" rel="stylesheet">
     <?php echo (isset($css) ? $css   : '')?>
+
+    
+    <?php
+if (isset($_GET['section'])) {
+    $section = $_GET['section'];
+    echo "<script>
+        window.addEventListener('DOMContentLoaded', function() {
+            window.location.hash = '#{$section}';
+        });
+    </script>";
+}
+?>
 </head>
