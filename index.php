@@ -381,7 +381,7 @@
                             </div>
                         </div>
                         <div class="col-lg-7 d-flex justify-content-end">
-                            <div class="slide-btn"><a class="theme-btn" href="./portfolio.php">View More</a></div>
+                            <div class="slide-btn"><a class="theme-btn" href="./portfolios.php">View More</a></div>
                         </div>
                     </div>
                 </div>
