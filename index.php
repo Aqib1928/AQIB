@@ -5,12 +5,11 @@
 
 <body>
 
-    <!-- start page-wrapper -->
     <div class="page-wrapper">
-        <!-- Start header -->
+
         <?php include './partials/header.php' ?>
-        <!-- end of header -->
-        <!-- start of hero -->
+
+        <!-- Home  -->
         <section class="static-hero" id='home'>
             <div class="hero-container">
                 <div class="hero-inner">
@@ -39,7 +38,7 @@
             <div class="static-hero-right">
                 <div class="static-hero-img">
                     <div class="static-hero-img-inner">
-                        <img src="assets/images/slider/1.jpg" alt="">
+                        <img src="assets/images/ME_600x600.jpg" alt="">
                         <div class="icon-1 floating-item"><img src="assets/images/icon/php.svg" alt=""></div>
                         <div class="icon-2 floating-item"><img src="assets/images/icon/wordpress.svg" alt=""></div>
                         <div class="icon-3 floating-item"><img src="assets/images/icon/diamond.svg" alt=""></div>
@@ -107,9 +106,8 @@
                 <img src="assets/images/slider/line-2.png" alt="">
             </div>
         </section>
-        <!-- end of hero slider -->
 
-        <!-- start of wpo-about-area -->
+        <!-- About  -->
         <div class="wpo-about-area section-padding" id="about">
             <div class="container">
                 <div class="row align-items-center">
@@ -210,9 +208,8 @@
                 <img src="assets/images/about/shape2.png" alt="">
             </div>
         </div>
-        <!-- end of wpo-about-area -->
 
-        <!-- start of wpo-service-area -->
+        <!-- Service  -->
         <div class="wpo-service-area section-padding" id="service">
             <div class="container">
                 <div class="row justify-content-center">
@@ -319,9 +316,8 @@
                 </svg>
             </div>
         </div>
-        <!-- end of wpo-service-area -->
 
-        <!-- start of wpo-work-area -->
+        <!-- Work  -->
         <div class="wpo-work-area section-padding" id="work">
             <div class="container">
                 <div class="row justify-content-center">
@@ -367,9 +363,8 @@
                 </svg>
             </div>
         </div>
-        <!-- end of wpo-work-area -->
 
-        <!-- start of wpo-project-area -->
+        <!-- Projects  -->
         <div class="wpo-project-area section-padding" id="project">
             <div class="container">
                 <div class="wpo-section-title-s2">
@@ -388,7 +383,7 @@
                 <div class="wpo-project-wrap wpo-project-slide owl-carousel">
                     <div class="wpo-project-item">
                         <div class="wpo-project-img">
-                            <img src="assets/images/project/1. Musab Sultan.jpg" alt="">
+                            <img src="assets/images/protfolio/1. Musab Sultan.jpg" alt="">
                         </div>
                         <div class="wpo-project-text">
                             <h2><a href="https://musabsultanalliance.com/">Musab Sultan Alliance<br>(Karachi, Sindh)</a></h2>
@@ -397,7 +392,7 @@
                     </div>
                     <div class="wpo-project-item">
                         <div class="wpo-project-img">
-                            <img src="assets/images/project/2. Tailored Tech.jpg" alt="">
+                            <img src="assets/images/protfolio/2. Tailored Tech.jpg" alt="">
                         </div>
                         <div class="wpo-project-text">
                             <h2><a href="https://tailoredtechllc.com/">Tailored Tech LLC</a></h2>
@@ -406,7 +401,7 @@
                     </div>
                     <div class="wpo-project-item">
                         <div class="wpo-project-img">
-                            <img src="assets/images/project/4. The Party Bus Charter.jpg" alt="">
+                            <img src="assets/images/protfolio/4. The Party Bus Charter.jpg" alt="">
                         </div>
                         <div class="wpo-project-text">
                             <h2><a href="https://thepartybuscharter.com/">The Party Bus Charter <br>(Newburgh, New York)</a></h2>
@@ -415,7 +410,7 @@
                     </div>
                     <div class="wpo-project-item">
                         <div class="wpo-project-img">
-                            <img src="assets/images/project/7. Curry Nation Atx.jpg" alt="">
+                            <img src="assets/images/protfolio/7. Curry Nation Atx.jpg" alt="">
                         </div>
                         <div class="wpo-project-text">
                             <h2><a href="https://currynationatx.com/">Curry Nation Atx <br>(Austin, Texas)</a></h2>
@@ -424,7 +419,7 @@
                     </div>
                     <div class="wpo-project-item">
                         <div class="wpo-project-img">
-                            <img src="assets/images/project/8. Sv Dharm Ashala.jpg" alt="">
+                            <img src="assets/images/protfolio/8. Sv Dharm Ashala.jpg" alt="">
                         </div>
                         <div class="wpo-project-text">
                             <h2><a href="https://svdharmashala.org/">Sv Dharm Ashala <br>(Carpentersville, Illinois)</a></h2>
@@ -455,15 +450,14 @@
                 <img src="assets/images/project/line-2.png" alt="">
             </div>
         </div>
-        <!-- end of wpo-project-area -->
 
-        <!-- start wpo-site-footer -->
         <?php include './partials/footer.php' ?>
-        <!-- end wpo-site-footer -->
+
 
     </div>
-    <!-- end of page-wrapper -->
+
     <?php include './partials/script.php' ?>
+
 </body>
 
 </html>
