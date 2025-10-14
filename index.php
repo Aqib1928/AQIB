@@ -381,6 +381,7 @@
                     </div>
                 </div>
                 <div class="wpo-project-wrap wpo-project-slide owl-carousel">
+                    
                     <div class="wpo-project-item">
                         <div class="wpo-project-img">
                             <img src="assets/images/protfolio/1. Musab Sultan.jpg" alt="">
