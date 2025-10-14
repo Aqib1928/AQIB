@@ -4,20 +4,17 @@
 
 <body>
 
-    <!-- start page-wrapper -->
     <div class="page-wrapper">
-        <!-- Start header -->
+
         <?php include './partials/header.php' ?>
-        <!-- end of header -->
-        <!-- start wpo-page-title -->
+
         <?php
         $mainTitle = 'Contact';
         $Title = 'Home';
         $Title2 = 'Contact';
         ?>
         <?php include './partials/page-header.php' ?>
-        <!-- end page-title -->
-        <!-- start wpo-contact-pg-section -->
+
         <section class="wpo-contact-pg-section section-padding">
             <div class="container">
                 <div class="row">
@@ -94,7 +91,7 @@
                         </div>
                     </div>                
                 </div>
-            </div> <!-- end container -->
+            </div>
             <div class="shape-1">
                 <svg width="1038" height="938" viewBox="0 0 1038 938" fill="none">
                     <g opacity="0.5" filter="url(#filter0_f_39_4392)">
@@ -110,24 +107,17 @@
                 </svg>
             </div>
         </section>
-        <!-- end wpo-contact-pg-section -->
 
-        <!--  start wpo-contact-map -->
         <section class="wpo-contact-map-section">
             <h2 class="hidden">Contact map</h2>
             <div class="wpo-contact-map">
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d197061.45273038244!2d74.3343893!3d31.482940349999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39190483e58107d9%3A0xc23abe6ccc7e2462!2sLahore!5e1!3m2!1sen!2s!4v1759673477576!5m2!1sen!2s" allowfullscreen loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
         </section>
-        <!-- end wpo-contact-map -->
 
-        <!-- start wpo-site-footer -->
         <?php include './partials/footer-two.php' ?>
-        <!-- end wpo-site-footer -->
 
     </div>
-    <!-- end of page-wrapper -->
     <?php include './partials/script.php' ?>
 </body>
-
 </html>
